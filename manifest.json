@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "CC Online Harvest",
+    "version": "1.0",
+    "author": "Tushar Chandra",
+    "description": "Adds links to harvest patches for online users.",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.clickcritters.com/usersonline.php",
+                "https://www.clickcritters.com/usersonline.php"
+            ],
+            "js": [ 
+                "content.js" 
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
