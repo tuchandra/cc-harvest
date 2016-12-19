@@ -14,3 +14,16 @@ This extension removes that need. By tweaking the users online page, this facili
 Users' profile pages, which are linked on the users online page, are created with usernames. Their plant patch pages are created with their userIDs. While the mapping from usernames to userIDs is one-to-one (each username has a unique userID), this mapping is not publicly available.
 
 A manual map of username : userID pairs must therefore be kept. The extension only adds links for users whose usernames are contained in userids.js (otherwise, it has no way of determining the userID). Therefore, userids.js must be updated periodically.
+
+## Installation
+Until this is available on the Chrome Web Store, you can install this yourself fairly easily. Follow these steps:
+
+1. Download all of these files by clicking **Clone or Download**, a green button near the top-right corner of the list of files. Choose "Download ZIP."
+2. Unzip the folder into a new folder on your computer. Name it whatever you want, but "cc-harvest" is a reasonable idea.
+3. In Chrome, go to the top right and click on the 3-dots menu. Go to **More tools > Extensions**.
+4. Check the **Developer Mode** checkbox on that page.
+5. Click the **Load unpacked extension...** button on that page.
+6. Select the folder you just created.
+7. Make sure the **Enabled** checkbox is checked.
+
+The extension should now run on the Users Online page.
